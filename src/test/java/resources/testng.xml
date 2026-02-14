@@ -1,0 +1,27 @@
+<suite name="LinkedInSuite">
+
+    <test name="Chrome">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="mobile" value="false"/>
+        <classes>
+            <class name="tests.EasyApplyTest"/>
+        </classes>
+    </test>
+
+    <test name="Edge">
+        <parameter name="browser" value="edge"/>
+        <parameter name="mobile" value="false"/>
+        <classes>
+            <class name="tests.EasyApplyTest"/>
+        </classes>
+    </test>
+
+    <test name="Mobile">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="mobile" value="true"/>
+        <classes>
+            <class name="tests.EasyApplyTest"/>
+        </classes>
+    </test>
+
+</suite>
